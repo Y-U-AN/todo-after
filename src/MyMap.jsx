@@ -51,7 +51,7 @@ function MyMap() {
 
   return (
     <div>
-      <div id="map" className="center-content popup-content" style={{ height: 300, width: 300 }} />
+      <div id="map" className="center-content popup-content" style={{ height: 300, width: 150 }} />
       {weather && (
         <div>
           <h3>Weather Information</h3>
