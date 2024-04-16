@@ -50,7 +50,7 @@ function MyMap() {
   }, []);
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column' }}>
+    <div>
       <div id="map" style={{ height: 100, width: 100 }} />
       {weather && (
         <div>
