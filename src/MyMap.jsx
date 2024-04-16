@@ -51,7 +51,7 @@ function MyMap() {
 
   return (
     <div>
-      <div id="map" style={{ height: 500, width: 500 }} />
+      <div id="map" style={{ height: 300, width: 300 }} />
       {weather && (
         <div>
           <h3>Weather Information</h3>
